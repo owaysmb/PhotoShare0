@@ -1,0 +1,241 @@
+
+/* start Global */
+*{
+    -webkit-box-sizing: border-box;
+    -noz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #232323;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+
+
+    /* End Global */
+
+    /*start Navbar */ 
+
+.navbar{
+    background-color: #565151;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    width: 100%;
+    
+}
+.navbar .brand{
+    width: 200px;
+    display: flex;
+}
+
+
+.link {
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    column-gap: 45px;
+    
+}
+.link :hover{
+    color: lightblue;
+    border-bottom:1px solid #fff;
+}
+    /* end navbar */
+
+
+
+.searchbar{
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+}
+.avatar{
+    width: 80px;
+    height:80px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.avatar:hover{
+    cursor: pointer;
+}
+.flex{
+    background-color: #565151;
+    width: 120px;
+    height: calc(100vh - 90px);
+    overflow-x:hidden ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y:auto;
+}
+
+.flexc{
+    background-color: rgb(63, 58, 58);
+    color: white;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50%;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.flex :hover{
+    color: lightblue;
+    border-bottom:2px solid lightblue;
+}
+.PH{
+    margin-left: 60px;
+    color: rgb(252, 252, 252);
+}
+.setlink {
+    background:none;
+    font-size: 20px;
+    border: none;
+}
+.setlink:hover{
+    color: lightblue;
+    border-bottom:2px solid lightblue;
+}
+.sert{
+    display: flex;
+    column-gap: 15px;
+}
+.button{
+    background: none;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    column-gap: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-2{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    
+}
+
+.theperant{
+    display: flex;
+    flex-direction:column;
+}
+.per{
+    display: flex;
+    width: calc(100% - 120px);
+}
+
+
+
+
+/* ul{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+ul li{
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ul li.active,
+ul li.hover{
+    opacity: 1;
+}
+ul li:first-child{
+    background-color: red;
+}
+ul li:nth-child(2){
+    background-color: green;
+}
+ul li:nth-child(3){
+    background-color: blue;
+}
+.experiment{
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+} */
+
+#element{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px ;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp{
+    opacity: 0;
+    width: 30px;
+    padding: 7px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    
+}
+.perantoo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    width: 400px;
+    height: 225px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.imageinpu{
+    opacity: 0;
+    width: 30px;
+    padding: 7px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    margin-top: 20px;
+}
+.proinp{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.haha{
+    text-decoration: none;
+}

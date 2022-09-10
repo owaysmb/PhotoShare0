@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    background-color: rgb(80, 78, 78);
+}
+.nav{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    background-color: rgb(39, 38, 38);
+}
+.avatar{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.username{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(39, 38, 38);
+}
+.sitename{
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.editprofile{
+    padding: 7px;
+    margin-left: 200px;
+    border: none;
+    background-color: rgb(95, 92, 92);
+    color: white;
+    cursor: pointer;
+}
+.stn{
+    padding: 7px;
+    border: none;
+    background-color: rgb(95, 92, 92);
+    color: white;
+    cursor: pointer;
+}
+.bio{
+    color: white;
+    background-color: rgb(39, 38, 38);
+}
+.archive{
+    display: flex;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    cursor: pointer;
+}
+.archive :hover{
+    text-decoration: underline overline;
+    color: lightblue;
+    border-bottom:1px solid #fff;
+    border: none;
+}
+.bio-username{
+    background-color: rgb(39, 38, 38);
+}
